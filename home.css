@@ -1,7 +1,7 @@
 *{
   margin: 0px ;
   padding: 0px
-}
+} *
 
 body {
   background-image: url("../img/plantillaHome.png");
@@ -45,7 +45,7 @@ justify-content: end;
   align-items: right;
 }
 
-.button{
+.button {
   border-color: rgb(2, 15, 26);
   text-decoration-color:blue;
   display: inline-flex ;
@@ -60,7 +60,7 @@ justify-content: end;
 border-radius: 30px;
 }
 
-h1{
+.h1{
   text-align:center;
   color:rgb(61, 25, 192);
   padding:20px;
@@ -73,7 +73,7 @@ h1{
 
 
 }
-h2{
+.h2{
   text-align:center;
   background-colowhite;
   color:rgb(61, 25, 192);
