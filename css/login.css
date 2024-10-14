@@ -21,8 +21,8 @@ background-color: blue;
 }
 .box2 {
     background-color: coral;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     display: flex;
     justify-content: center;
     margin-top:200px;
@@ -32,6 +32,7 @@ background-color: blue;
 #h2 {
     transform: rotate(-18deg);
     margin-bottom: 20px;
+    font-size: ;
 }
 #loginForm {
     transform: rotate(-18deg);
@@ -50,7 +51,7 @@ background-color: blue;
 }
 
 .box3 {
-    background-color: aqua;
+    background-color: rgb(255, 51, 0);
     height: 300px;
     width: 300px;
     margin-top:200px;

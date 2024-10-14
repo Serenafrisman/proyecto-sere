@@ -25,11 +25,21 @@
         <div class="flex-box2"></div>
             <div class="logo"></div>
             <ul class="flex-container nowrap">
-                <button class="btn">Iniciar Sesion</button>
-                <a href="login.html" class="botones">Iniciar Sesión</a>
+                <button onclick="irAPantalla2()">Iniciar Sesión</button>
                 
-                <button class="btn">Registrate</button>
-                <a href="registro.html" class="botones">Registrate</a>
+                <script>
+                    function irAPantalla2() {
+                        window.location.href = "login.html";
+                    }
+                </script>
+                <button onclick="irAPantalla1()">Registrate</button>
+
+                    <script>
+                        function irAPantalla1() {
+                            window.location.href = "registro.html";
+                            }
+                    </script>
+                
             </ul>
         </div>
         </div>

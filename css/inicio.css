@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +14,17 @@ body{
     font-size: 36px;
     margin-bottom: 20px;
     margin-top: 200px;
+    font-family: "Jaini Purva";
 }
+}
+
+ .jaini-purva-regular {
+        font-family: "Jaini Purva", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+
 .search-box input{
     height: 30px;
     width: 300px;
@@ -31,4 +42,13 @@ body{
     align-items: center;
     margin-top: 40px;
     
+}
+.boxmenu{
+background-color: rgb(148, 199, 199);
+width: 300px;
+height: 300px;
+display:flex;
+align-self:  self-end;
+border-radius: 47px;
+border-color: black;
 }
