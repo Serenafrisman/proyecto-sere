@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-image: url("../img/plantillaHome.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.boxgrande{
+    display: flex;
+    gap: 20px;
+}
+  
+  .box1 {
+  background-color: rgb(232, 227, 236);
+  height: 500px;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: flex;
+  flex-direction:column;
+  background-color: rgba(236, 236, 241, 0.5); 
+  color: rgb(8, 31, 245);
+  padding: 20px;
+  border-radius: 52px 52px 52px 52px;
+
+  
+  }
+  
+  .flex-container {
+    background-color:crimson(186, 186, 209);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solidsilver;
+    -ms-box-orient: horizontal;
+    display:flex ;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  justify-content: end;
+    align-items: right;
+
+  }
+  
+  .btn{
+    border-color: rgb(237, 239, 241);
+    text-decoration-color:blue;
+    background-color: rgb(216, 98, 145);
+    border-radius: 52px 52px 52px 52px;
+    height: 40px;
+    width: 120px;
+
+  }
+  
+  h1{
+    text-align:center;
+    color:rgb(61, 25, 192);
+    padding:20px;
+    height:214px;
+    width: 1498 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family:Iknut Antiqua;
+    font-size: 100px;
+  
+  }
+  h2{
+    text-align:center;
+    color:rgb(61, 25, 192);
+    padding:20px;
+    height: 1051px;;
+    width: 276px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-decoration: none;
+  
+  
+  }
+  
+  
+  p{
+    color: rgb(34, 10, 248);
+    padding:20px;
+    height: 959px;;
+    width: 619px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 1px solisilver;
+    -ms-box-orient: horizontal;
+    display: flex;
+    border-radius: 10px;
+  }
+  
+  .box2{
+    
+    text-align:center;
+    padding:20px;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+  }
+  .flex-box2{
+    background-color: rgb(190, 29, 93);
+    padding:100px;
+    height:100px;
+    width: 60px;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    row-gap:unset;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+    }
+  
