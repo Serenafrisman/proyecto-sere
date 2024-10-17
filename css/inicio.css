@@ -5,18 +5,37 @@
 }
 body{
     background-color: #43b7e0;
+    height: 100vh ;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    justify-content: space-evenly;
+}
+.boxgrande{
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items:center;
+    gap: 100px; 
+}
+.boxp{
+    background-color:gb(200, 255, 0);
+    height: 400px;
+    width: 400px;
     display: flex;
     justify-content: center;
-    align-items: baseline;
-    
+    align-items: center
+
 }
+
+
+
 .main-content h1{
     font-size: 36px;
-    margin-bottom: 20px;
-    margin-top: 200px;
     font-family: "Jaini Purva";
 }
-}
+
 
  .jaini-purva-regular {
         font-family: "Jaini Purva", system-ui;
@@ -24,14 +43,30 @@ body{
         font-style: normal;
 }
 
+.search-box {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    justify-content: center;
+    align-items: center;
+}
 
-.search-box input{
+.search-box {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box input {
     height: 30px;
     width: 300px;
     border-color: black;
-
+    margin-top: 35px;
+    margin-bottom: 30px;
+    border-radius: 10px;
 }
-.search-box button{
+
+.search-box button {
     height: 40px;
     width: 150px;
     background-color: rgb(223, 60, 114);
@@ -40,15 +75,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
-    
+    margin-top: 30px;
 }
 .boxmenu{
-background-color: rgb(148, 199, 199);
-width: 300px;
-height: 300px;
-display:flex;
-align-self:  self-end;
-border-radius: 47px;
-border-color: black;
+    background-color:rgb(193, 238, 260);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    border-radius: 47px;
+    border: 1px solid rgb(0, 0, 0); 
+   
+}
+.boxmenu h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px; 
+    margin-bottom: 15px; 
+}
+.boxmenu h2:last-child {
+    border-bottom: none;
+}
+.menu img {
+    margin-right: 10px; 
 }
