@@ -1,50 +1,51 @@
 
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-body {
-    background-image: url("../img/Login.png");
-    background-size: cover;
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-   }
-   .box1 {
-      background-color: blueviolet;
-      height: 300px;
-      width: 300px;
-    align-self:center;
-    margin-top:200px;
-   }
-   .box2 {
-       background-color: rgb(241, 10, 191);
-       height: 300px;
-       width: 300px;
-       display: flex;
-       justify-content: center;
-       display: flex;
-       justify-content: center;
-       margin-top:200px;
-   }
-   
-   #loginForm {
-       transform: rotate(-17deg);
-       padding: 20px;
-       border-radius: 20px;
-       
-       
-     
-   }
-   #user{
-     margin-bottom: 10px;
 
-   
-   }
-   
-   .box3{
-       background-color: rgb(200, 255, 0);
-       height: 300px;
-       width: 300px;
-       margin-top:200px;
-   }
+body {
+    background-image: url("../img/Login3.PNG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    gap: 60px; /* Añade espacio entre las cajas */
+}
+
+.box1, .box2, .box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color: rgb(255, 0, 221);
+    height: 300px;
+    width: 300px;
+}
+
+.box2 {
+    background-color: rgb(179, 255, 80);
+    height: 400px;
+    width: 400px;
+}
+
+.box3 {
+    background-color: rgb(75, 7, 82);
+    height: 300px;
+    width: 300px;
+}
+
+#h2 {
+    transform: rotate(-18deg);
+}
+
+#loginForm {
+    transform: rotate(-18deg);
+    padding: 20px;
+    border-radius: 20px;
+}
