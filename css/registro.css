@@ -1,19 +1,19 @@
 
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-image: url("../img/Login3.PNG");
+    background-image: url("../img/Login4.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center; 
     align-items: center; 
     min-height: 100vh; 
-    gap: 60px; /* Añade espacio entre las cajas */
+    gap: 60px; 
+    justify-content: space-around; 
 }
 
 .box1, .box2, .box3 {
@@ -23,19 +23,19 @@ body {
 }
 
 .box1 {
-    background-color: rgb(255, 0, 221);
+    background-color: rgb(88, 42, 5);
     height: 300px;
     width: 300px;
 }
 
 .box2 {
-    background-color: rgb(179, 255, 80);
-    height: 400px;
-    width: 400px;
+    background-color: rgb(255, 80, 232);
+    height: 300px;
+    width: 300px;
 }
 
 .box3 {
-    background-color: rgb(75, 7, 82);
+    background-color: rgb(0, 255, 42);
     height: 300px;
     width: 300px;
 }

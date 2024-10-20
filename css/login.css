@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("../img/Login3.PNG");
+    background-image: url("../img/Login4.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -13,6 +13,7 @@ body {
     align-items: center; 
     min-height: 100vh; 
     gap: 60px; 
+    justify-content: space-around; 
 }
 
 .box1, .box2, .box3 {
@@ -29,8 +30,8 @@ body {
 
 .box2 {
     background-color: coral;
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
 
 .box3 {
