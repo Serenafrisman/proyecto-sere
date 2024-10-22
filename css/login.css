@@ -30,10 +30,15 @@ body {
 
 .box2 {
     background-color: coral;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
+    transform: scale(1.1); 
+    transform-origin: center; 
 }
 
+#input {
+    margin-bottom: 10px;
+}
 .box3 {
     background-color: rgb(255, 51, 0);
     height: 300px;
@@ -42,10 +47,12 @@ body {
 
 #h2 {
     transform: rotate(-18deg);
+    
 }
 
 #loginForm {
     transform: rotate(-18deg);
-    padding: 20px;
+    padding: 40px;
     border-radius: 20px;
+
 }

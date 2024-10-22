@@ -3,14 +3,14 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: #5ec0e4;
-    height: 100vh ;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+body {
+    background-image: url("../img/fondoinicio.png");
+    background-size: cover;
+    background-position: center;
     height: 100vh;
+    display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 .boxgrande{
     display: flex; 
@@ -28,8 +28,6 @@ body{
     align-items: center
 
 }
-
-
 
 .main-content h1{
     font-size: 36px;
