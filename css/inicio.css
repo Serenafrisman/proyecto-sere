@@ -3,14 +3,14 @@
     margin: 0;
     padding: 0;
 }
-body {
-    background-image: url("../img/fondoinicio.png");
-    background-size: cover;
-    background-position: center;
+body{
+    background-color: #5ec0e4;
+    height: 100vh ;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
     height: 100vh;
-    display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
 .boxgrande{
     display: flex; 
@@ -29,10 +29,12 @@ body {
 
 }
 
+
+
 .main-content h1{
     font-size: 36px;
     font-family: "Jaini Purva";
-    margin-bottom: 85px;
+    margin-bottom: px;
 }
 
 
@@ -88,12 +90,12 @@ body {
     justify-content: space-evenly; 
     align-items: center; 
     border-radius: 47px;
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid rgb(20, 7, 7);
     align-self: flex-end; 
 }
 
 .boxmenu h2 {
-    border-bottom: 4px solid black;
+    
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
@@ -101,4 +103,65 @@ body {
 
 .menu img {
     margin-right: 100px; /* Añade margen a la derecha de las imágenes dentro de la clase 'menu' */
+}
+/* Contenedor del menú */
+.boxmenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(207, 229, 235);
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+    width: 300px;
+}
+
+/* Botones del menú */
+.menu-button {
+    background-color: rgb(207, 229, 235);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/* Submenú estilo */
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: rgb(207, 229, 235);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Mostrar el submenú al hacer hover */
+.menu-item:hover .submenu {
+    display: block;
+}
+
+/* Lista del submenú */
+.submenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu ul li {
+    margin-bottom: 10px;
+}
+
+.submenu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Ajuste del contenedor */
+.menu-item {
+    position: relative;
 }

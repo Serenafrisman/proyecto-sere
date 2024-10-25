@@ -23,29 +23,44 @@ body {
 }
 
 .box1 {
-    background-color: rgb(88, 42, 5);
+    background-color: rgb(0, 255, 13);
     height: 300px;
     width: 300px;
 }
 
 .box2 {
     background-color: rgb(255, 80, 232);
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
+    transform: scale(1.1); 
+    transform-origin: center; 
 }
 
+#input {
+    margin-bottom: 10px;
+
+}
 .box3 {
-    background-color: rgb(0, 255, 42);
+    background-color: rgb(162, 0, 255);
     height: 300px;
     width: 300px;
 }
 
 #h2 {
     transform: rotate(-18deg);
+    color: rgb(65, 131, 206);
+    
 }
 
 #loginForm {
     transform: rotate(-18deg);
-    padding: 20px;
+    padding: 40px;
     border-radius: 20px;
+}
+#user{
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+#password{
+    margin-bottom: 15px;
 }
