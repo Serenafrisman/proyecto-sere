@@ -45,7 +45,12 @@
     align-items: right;
 
   }
-  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  .btn1:hover {
+    transform: scale(1.05);
+  }
   .btn{
     border-color: rgb(237, 239, 241);
     text-decoration-color:blue;

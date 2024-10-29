@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Jaini+Purva&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -15,21 +17,32 @@ body {
     gap: 60px; 
     justify-content: space-around; 
 }
-
+body, .inknut-antiqua-regular {
+    font-family: "Inknut Antiqua", serif;
+}
 .box1, .box2, .box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inknut-antiqua-regular {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.box1 {
+    height: 300px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.box1 {
-    background-color: blue;
-    height: 300px;
-    width: 300px;
-}
-
 .box2 {
-    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 400px;
     width: 400px;
     transform: scale(1.1); 
@@ -63,4 +76,15 @@ body {
 }
 #password{
     margin-bottom: 15px;
+}
+.button {
+    border: 1px solid;
+    background-color: rgb(180, 19, 84);
+    color: rgb(12, 5, 5);
+    text-align: center;
+    border-radius: 52px;
+    height: 40px;
+    width: 120px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
