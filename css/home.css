@@ -72,7 +72,7 @@
 
   }
   
-  h1{
+  .h1{
     text-align:center;
     color:rgb(61, 25, 192);
     padding:20px;
@@ -86,7 +86,7 @@
     font-size: 100px;
   
   }
-  h2{
+  .h2{
     text-align:center;
     color:rgb(61, 25, 192);
     padding:20px;
@@ -98,10 +98,9 @@
     text-decoration: none;
     text-decoration: none;
   
-  
   }
   
-  
+
   p{
     color: rgb(34, 10, 248);
     padding:20px;
