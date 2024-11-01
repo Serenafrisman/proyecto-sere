@@ -7,17 +7,14 @@
     background-image: url("../img/plantillaHome.png");
     background-repeat: no-repeat;
     background-size: cover;
-  }
-.boxgrande{
     display: flex;
-    gap: 20px;
-}
+  }
+
   
-  .box1 {
+  .boxgrande {
   background-color: rgb(232, 227, 236);
   height: 400px;
-  width: 50%;
-  padding: 0;
+  width: 90%;
   margin-top: 40px;
   list-style: none;
   -ms-box-orient: horizontal;
@@ -27,7 +24,7 @@
   color: rgb(8, 31, 245);
   padding: 20px;
   border-radius: 52px 52px 52px 52px;
-
+  display:flex;
   
   }
   
@@ -135,16 +132,4 @@
     margin-bottom: 10px;
     
   }
-  .flex-box2{
-    background-color: rgb(190, 29, 93);
-    padding:100px;
-    height:100px;
-    width: 60px;
-    display: flex;
-    justify-content:center;
-    align-items: flex-start;
-    row-gap:unset;
-    flex-direction: column;
-    margin-bottom: 40px;
-
-    }
+ 

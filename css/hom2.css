@@ -1,39 +1,56 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-image: url("../img/plantillaHome.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/plantillaHome.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
 }
+
 .boxgrande {
-background-color: rgb(232, 227, 236);
+  background-color: rgba(236, 236, 241, 0.5);
   height: 500px;
   width: 90%;
-  padding: 0;
   margin-top: 40px;
   margin-left: 40px;
-  list-style: none;
-  -ms-box-orient: horizontal;
-  display: flex;
+  display: flex; 
   justify-content: center;
-  flex-direction:column;
-  background-color: rgba(236, 236, 241, 0.5); 
+  align-items: center; 
+  border-radius: 52px;
   color: rgb(17, 30, 145);
   padding: 20px;
-  border-radius: 52px 52px 52px 52px;
-
-}
-.boxgrande h2 {
-  font-size: 70px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.boxgrande h1 {
-  font-size: 80px; 
+.contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.img{
+
+.boxtexto {
+  height: 500px;
+  width: auto;
+  padding: 20px;
+  border-radius: 10px; /* Otras propiedades de estilo */
+  justify-content: center;
+  display:flexbox;
+  align-items: center;
+}
+
+.boxtexto h1{
+  font-size: 100px;
+}
+.boxtexto h2{
+  font-size: 70px;
+}
+.img {
   width: 300px;
   height: auto;
+  margin-left: 20px; /* Espacio entre el texto y la imagen */
 }
