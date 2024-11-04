@@ -40,7 +40,7 @@ body{
 
 .jaini-purva-regular {
         font-family: "Jaini Purva", system-ui;
-        font-weight: 400;
+        font-weight: 400px;
         font-style: normal;
 }
 
@@ -104,8 +104,8 @@ body{
 .menu img {
     margin-right: 100px; /* Añade margen a la derecha de las imágenes dentro de la clase 'menu' */
 }
-/* Contenedor del menú */
-.
+
+
 .boxmenu {
     background-color: rgb(207, 229, 235);
     width: 300px;
