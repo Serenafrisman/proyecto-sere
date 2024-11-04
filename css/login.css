@@ -1,4 +1,5 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Jaini+Purva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
@@ -17,7 +18,7 @@ body {
     align-items: center; 
     min-height: 100vh; 
     gap: 60px; 
-    justify-content: space-around; 
+    justify-content: space-evenly; 
 
 }
 body, .inknut-antiqua-regular {
@@ -27,7 +28,7 @@ body, .inknut-antiqua-regular {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    justify-content: space-between; 
 }
 .inknut-antiqua-regular {
     font-family: "Inknut Antiqua", serif;
@@ -63,6 +64,8 @@ body, .inknut-antiqua-regular {
 #input {
     margin-bottom: 10px;
     border-color: black;
+    height: 50px;
+    width: auto;
 
 }
 .box3 {
@@ -72,30 +75,62 @@ body, .inknut-antiqua-regular {
 }
 
 #h2 {
-    transform: rotate(-18deg);
+    transform: rotate(deg);
     color: rgb(65, 131, 206);
-    
+    font-size: 380px;
+    margin-left: 30px;
 }
 
 #loginForm {
     transform: rotate(-18deg);
     padding: 40px;
     border-radius: 20px;
+   
+ 
 }
 #user{
+    transform: rotate(-3deg);
     margin-bottom: 15px;
     margin-top: 20px;
     border-color: black;
+    height: 30px;
+    width: 250px;
+    
+
 }
 #password{
+    transform: rotate(-3deg);
     margin-bottom: 15px;
     border-color: black;
+    height:30px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
 }
-#button{
-    background-color: rgb(216, 65, 95);
-    border-radius: 5px;
+#loginForm button {
+    background-color:rgb(	255, 97, 154);
+    border-radius: 20px;
+    transform: rotate(-3deg);
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+   
 }
-img{
+button:hover {
+    background-color: #f80a81;}
+.box3{
+    
+    display: flex;          /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;   /* Centra verticalmente si es necesario */
+    height: 500px;
+    margin-right: 40px;
+    margin-top: 30px;
+    margin
+}
 
-  overflow: clip;
-}
+.img {
+    width: 280px;  
+    height:auto; 
+    max-width: 100%; 
+    }

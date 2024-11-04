@@ -13,7 +13,7 @@
   
   .boxgrande {
   background-color: rgb(232, 227, 236);
-  height: 400px;
+  height: 500px;
   width: 90%;
   margin-top: 40px;
   list-style: none;
@@ -98,16 +98,15 @@
   }
   
 
-  p{
+  .h1 {
+    margin: 15px 0; /* Ajusta el margen superior e inferior como desees */
     color: rgb(34, 10, 248);
-    padding:20px;
-    height: 959px;;
-    width: 619px;
+    padding: 10px; /* Mantén el padding si es necesario */
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
+}
+
   
   .flex-container {
     padding: 0;
