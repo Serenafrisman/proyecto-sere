@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BuscandORT</title>
+    <head>
+        <title>BuscandORT </title>
+        <link rel="icon" href="./img/LOGO BUSCANDORT.png" type=icon>
+        <link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
+    </head>
         <nav class="sidebar">
         <link rel="stylesheet" href="css/inicio.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +17,8 @@
 </head>
 <body>
 
-    <div class="boxgrande">
+<div class="boxgrande">
+    <div class="box1">
         <div class="boxmenu">
             <div class="menu-item">
                 <p>_______________________________</p>
@@ -23,9 +29,21 @@
                 <h3><img src="img/recientes.png" alt="Recientes Icono">Recientes</h3></li>
                 <p>_______________________________</p>
                 <h3><img src="img/pisos.png" alt="Pisos Icono">Pisos</h3></li>
+                <nav>
+                    <ul>
+                    <ul class="dropdown">
+                    <a href="#" id="transportBtn" class="dropbtn"></a>
+                    <div class="dropdown-content">
+                    <a href="#" onclick="updateText('Auto Nafta')">PB</a>
+                    <a href="#" onclick="updateText('Auto Diesel')">1er piso</a>
+                    <a href="#" onclick="updateText('Colectivo')">2do piso</a>
+                    <a href="#" onclick="updateText('Tren')">3er piso</a>
+                    </div>
+                    </ul>
+                    </ul>
+                    </nav>
                 <p>_______________________________</p>
         </ul>
-     </div>
             </div>
         </div>
     </div>
@@ -40,6 +58,6 @@
                 </div>
             </main>
         </div>
-        
+</div>     
 </body>
 </html>
