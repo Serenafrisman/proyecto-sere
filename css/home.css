@@ -12,15 +12,15 @@
 
   
   .boxgrande {
-  background-color: rgb(232, 227, 236);
   height: 400px;
-  width: 90%;
+  width: 80%;
   margin-top: 40px;
   list-style: none;
   -ms-box-orient: horizontal;
   display: flex;
   flex-direction:column;
-  background-color: rgba(236, 236, 241, 0.5); 
+  /*background-color: rgba(236, 236, 241, 0.5); */
+  background-color: purple;
   color: rgb(8, 31, 245);
   padding: 20px;
   border-radius: 52px 52px 52px 52px;
