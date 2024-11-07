@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -7,46 +8,95 @@ body{
     background-color: rgb(131, 193, 230);
     
 }
-.boxgrande{
-    display: flex;
-    justify-content: space-between; 
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    margin-top: 20px;        /* Ajusta el margen superior si lo necesitas */
-    width: 100%;             /* Asegúrate de que ocupe todo el ancho disponible */
-    height: auto;
-}
-.boxmenu {
-    background-color: rgb(207, 229, 235);
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; 
-    align-items: center; 
-    border-radius: 47px;
-    border: 5px solid rgb(0, 0, 0);
-    align-self: flex-end; 
-}
-
-.boxmenu h2 {
-    border-bottom: 4px solid black;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-}
-
+    .boxgrande {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+    
+    .btn {
+        text-decoration: none;
+        background-color: rgb(216, 98, 145);
+        border-radius: 52px;
+        height: 60px;
+        width: 170px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .btn:hover {
+        transform: scale(1.05);
+    }
+    .boxmenu {
+        background-color: rgb(207, 229, 235);
+        width: 300px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 60px;
+        border: 5px solid rgb(0, 0, 0);
+        align-self: flex-end;
+        margin-top: 12px;
+    }
+    
+    .boxmenu h2 {
+        border-bottom: 4px solid black;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+    
+    p {
+        height: auto;
+        width: auto;
+    }
+    
+    .menu img {
+        margin-right: 100px;
+    }
+    
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .main-content h1 {
+        font-size: 8px;
+        font-family: "Inknut Antiqua", serif;
+        margin-bottom: 95px;
+        margin-right: 30px;
+        font-size: 40px;
+    }
+    
+    .inknut-antiqua-light {
+        font-family: "Inknut Antiqua", serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+    
+    .jaini-purva-regular {
+        font-family: "Jaini Purva", sans-serif;
+        ;
+        font-size: 40px;
+        
+    }
+    
 
 .menu img {
-    margin-right: 100px; /* Añade margen a la derecha de las imágenes dentro de la clase 'menu' */
+    margin-right: 100px;
 }
 .img{
 
     display: flex;
     justify-content: center;
     align-items: center;
-        max-width: 100%; /* La imagen no será más grande que el ancho del contenedor */
-        height: auto; /* Mantiene la relación de aspecto */
+        max-width: 100%; 
+        height: auto; 
 }
 
 .main-content h1{
