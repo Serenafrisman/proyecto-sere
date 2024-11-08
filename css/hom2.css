@@ -22,15 +22,13 @@ body {
   border-radius: 52px;
   color: rgb(17, 30, 145);
   padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .contenido {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .boxtexto {
