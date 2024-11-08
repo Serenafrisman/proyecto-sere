@@ -116,19 +116,13 @@ body, .inknut-antiqua-regular {
 }
 button:hover {
     background-color: #f80a81;}
-.box3{
+.box3 {  
     
-        display: flex;          /* Activa Flexbox */
-        justify-content: center; /* Centra horizontalmente */
-        align-items: center;   /* Centra verticalmente si es necesario */
-        height: 500px;
-        margin-right: 40px;
-        margin-top: 30px;
-        margin
-    }
+    display: flex;          /* Activa Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;   /* Centra verticalmente si es necesario */
+    height: 500px;
+    margin-right: 40px;
+    margin-top: 30px;
     
-.img {
-        width: 280px;  
-        height:auto; 
-        max-width: 100%; 
 }
