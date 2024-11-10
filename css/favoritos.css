@@ -44,9 +44,10 @@ h1{
 h2{
     font-size: 60px;
 }
-.h3{
+#h3{
     display: flex;
 justify-content: center;
+
 }
 .boxmenu {
     background-color: rgb(207, 229, 235);
