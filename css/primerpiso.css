@@ -18,11 +18,11 @@ body{
     
     .btn {
         text-decoration: none;
-    
+       
         background-color: rgb(216, 98, 145);
         border-radius: 52px;
         height: 60px;
-        width: 160px;
+        width: 300px;
         margin-bottom: 20px;
         text-align: center;
     }
