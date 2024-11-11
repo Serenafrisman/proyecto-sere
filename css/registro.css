@@ -43,6 +43,7 @@ body, .inknut-antiqua-regular {
     display: flex;
     justify-content:flex-start;
     color:darkblue;
+    margin-left: 10px;
 }
 h1{
     color:darkblue;
