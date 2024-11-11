@@ -75,10 +75,12 @@ body, .inknut-antiqua-regular {
 }
 
 #h2 {
-    transform: rotate(deg);
+    transform: rotate(-18);
     color: rgb(65, 131, 206);
     font-size: 380px;
     margin-left: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 #loginForm {
