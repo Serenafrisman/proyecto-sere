@@ -15,14 +15,8 @@ document.getElementById('2do').addEventListener("click", irAInicio)
 document.getElementById('3er').addEventListener("click", irAInicio)
 
 //como hacer menu desplegable
-window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName('dropdown-content');
-    for (var i = 0; i < dropdowns.length; i++) {
-    var openDropdown = dropdowns[i];
-    if (openDropdown.style.display === 'block') {
-    openDropdown.style.display = 'none';
-    }
-    }
-    }
-};
+function toggleMenu(submenuId) {
+    const submenu = document.getElementById(submenuId);
+    submenu.style.display = submenu.style.display === "block" ? "none" : "block";
+  }
+  
