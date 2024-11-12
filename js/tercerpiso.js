@@ -18,5 +18,20 @@ document.getElementById('3er').addEventListener("click", irAInicio)
 function toggleMenu(submenuId) {
     const submenu = document.getElementById(submenuId);
     submenu.style.display = submenu.style.display === "block" ? "none" : "block";
-  }
-  
+}
+//pasar del menu desplegablee a  los pisos
+function irAPrimeroPiso() {
+    window.location.href = "primerpiso.html";
+}
+
+function irAPlantaBaja() {
+    window.location.href = "plantabaja.html";
+}
+
+function irASegundoPiso() {
+    window.location.href = "segundopiso.html";
+}
+
+function irATercerPiso() {
+    window.location.href = "tercerpiso.html";
+}
