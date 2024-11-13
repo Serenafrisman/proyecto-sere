@@ -5,28 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BuscandORT</title>
     <link rel="stylesheet" href="./css/favoritos.css">
+    <link rel="icon" href="./img/LOGO BUSCANDORT.png" type=icon>
+    <link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
     
     <link href="https://fonts.googleapis.com/css2?family=Jaini+Purva:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="boxmenu">
-        <div class="menu-item">
+        <ul>       
             <p>_______________________________</p>
             <h3 id="h3inicio"><img src="img/captura.casa.png" alt="Inicio Icono">Inicio</h3></li>
             <p>_______________________________</p>
-            <h3 id="favoritos"><img src="img/misfavoritos.PNG" alt="Favoritos Icono">Mis Favoritos</h3></li>
+
+            <h3>
+                <a href="favoritos.html">
+                    <img src="img/misfavoritos.PNG" alt="Favoritos Icono"> Mis Favoritos
+                </a>
+            </h3>
+
             <p>_______________________________</p>
             <h3><img src="img/recientes.png" alt="Recientes Icono">Recientes</h3></li>
             <p>_______________________________</p>
-            
             <h3><img src="img/pisos.png" alt="Pisos Icono"><a href="#" onclick="toggleMenu('submenu1')">Pisos</a></h3>
-            <ul class="submenu" id="submenu1">
-                <li><a href="#">Submenú 1</a></li>
-                <li><a href="#">Submenú 2</a></li>
-                <li><a href="#">Submenú 3</a></li>
-                <li><a href="#">Submenú 3</a></li>
-            </ul>
-            </li>
+            <li class="submenu" id="submenu1">
+                <a href="#" onclick="irAPlantaBaja()">PB</a>
+                <a href="#" onclick="irAPrimeroPiso()">1er Piso</a>
+                <a href="#" onclick="irASegundoPiso()">2do Piso</a>
+                <a href="#" onclick="irATercerPiso()">3er Piso</a> </li>
             <p>_______________________________</p>
             </ul>
         </div>
@@ -37,7 +43,7 @@
 </div>
 <h3>Punteado con las aulas que el usuario vaya agregando</h3>
 <div class="boxgrande">
-    
+    <script src="js/tercerpiso.js"></script>
     
 </body>
 </html>

@@ -29,25 +29,7 @@ body{
     .btn:hover {
         transform: scale(1.05);
     }
-    .boxmenu {
-        background-color: rgb(207, 229, 235);
-        width: 300px;
-        height: 350px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        border-radius: 60px;
-        border: 5px solid rgb(0, 0, 0);
-        align-self: flex-end;
-        margin-top: 12px;
-    }
-    
-    .boxmenu h2 {
-        border-bottom: 4px solid black;
-        padding-bottom: 5px;
-        margin-bottom: 15px;
-    }
+   
     
     p {
         height: auto;
@@ -83,4 +65,82 @@ body{
         font-weight: 400;
         font-size: 40px;
         
+    }
+    .submenu1{
+        color: black;
+        text-decoration:none;
+    
+    }
+    .boxmenu {
+        background-color: rgb(207, 229, 235);
+        color: black;
+        width: 300px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 60px;
+        border: 5px solid rgb(0, 0, 0);
+        align-self: flex-end;
+        margin-top: 12px;
+    }
+    
+    .boxmenu h2 {
+        border-bottom: 4px solid black;
+        padding-bottom: 5px;
+        margin-bottom: 15px;
+    }
+    .boxmenu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    .boxmenu ul li {
+        position: relative;
+    }
+    
+      
+      .boxmenu li a {
+        display: block;
+        padding: 10px;
+        
+        text-decoration: none;
+      }
+      .boxmenu ul li:hover .submenu {
+        display: block;
+        max-height: 200px; /* Ajusta esta altura según el número de elementos */
+        transition: max-height 0.3s ease-in-out; /* Añade transición suave */
+    
+    }
+    
+      
+    .submenu {
+        display: none; /* Oculto por defecto */
+        position: relative; /* Cambiamos a 'relative' para que quede dentro de .boxmenu */
+        background-color: rgb(207, 229, 235);
+        border-radius: 10px;
+        padding: 10px 0;
+        width: 100%; /* Asegura que el submenú ocupe todo el ancho de la caja */
+        color:black;
+    }
+    
+    .submenu li a {
+        color: black;
+        padding: 10px 20px;
+        display: block;
+        text-decoration: none;
+    }
+    
+    .submenu li a:hover {
+        background-color: rgb(216, 98, 145);
+        color: rgb(0, 0, 0);
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-style: black;;
+    
     }

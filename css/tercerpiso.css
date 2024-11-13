@@ -107,21 +107,20 @@ p {
     position: relative;
 }
 
-  
-  .boxmenu li a {
+
+.boxmenu li a {
     display: block;
     padding: 10px;
-    color: #ddd;
     text-decoration: none;
-  }
-  .boxmenu ul li:hover .submenu {
+}
+.boxmenu ul li:hover .submenu {
     display: block;
     max-height: 200px; /* Ajusta esta altura según el número de elementos */
     transition: max-height 0.3s ease-in-out; /* Añade transición suave */
 
 }
 
-  
+
 .submenu {
     display: none; /* Oculto por defecto */
     position: relative; /* Cambiamos a 'relative' para que quede dentro de .boxmenu */
@@ -129,7 +128,7 @@ p {
     border-radius: 10px;
     padding: 10px 0;
     width: 100%; /* Asegura que el submenú ocupe todo el ancho de la caja */
-    
+    color:black;
 }
 
 .submenu li a {
@@ -141,7 +140,7 @@ p {
 
 .submenu li a:hover {
     background-color: rgb(216, 98, 145);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 a {
     text-decoration: none;
