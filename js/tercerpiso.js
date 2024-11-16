@@ -1,6 +1,6 @@
 
 //como hacer kla funcion de pasar a una pagina 
-function irAInicio() {
+function irInicio() {
     window.location.href = "inicio.html";
 }
 function irfavoritos() {
@@ -19,7 +19,6 @@ function irAPlantaBaja() {
 function irAPrimeroPiso() {
     window.location.href = "primerpiso.html";
 }
-
 
 function irASegundoPiso() {
     window.location.href = "segundopiso.html";
