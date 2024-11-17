@@ -5,8 +5,10 @@
     margin: 0;
 }
 body{
-   background-color: rgb(151, 218, 255);;
+    background-color: rgb(151, 218, 255);
+    
 }
+
 .boxgrande {
         display: flex;
         justify-content: center;
@@ -18,18 +20,18 @@ body{
     
     .btn {
         text-decoration: none;
-       
+        font-family: "Inknut Antiqua", serif;
         background-color: rgb(216, 98, 145);
         border-radius: 52px;
         height: 60px;
         width: 300px;
         margin-bottom: 20px;
+        margin-top:10px;
         text-align: center;
     }
     .btn:hover {
         transform: scale(1.05);
     }
-   
     
     p {
         height: auto;
@@ -48,7 +50,7 @@ body{
     }
     
     .main-content h1 {
-        font-size: 8px;
+        font-size: 80px;
         font-family: "Inknut Antiqua", serif;
         margin-bottom: 95px;
         margin-right: 30px;
@@ -63,12 +65,20 @@ body{
     .jaini-purva-regular {
         font-family: "Jaini Purva", sans-serif;
         font-weight: 400;
-        font-size: 40px;
+        font-size: 100px;
         
     }
     .submenu1{
         color: black;
         text-decoration:none;
+    
+    }
+      
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-style: black;;
     
     }
     .boxmenu ul {
@@ -89,7 +99,8 @@ body{
         border: 5px solid rgb(0, 0, 0);
         align-self: flex-end;
         margin-bottom: 70px;
-        margin-right: 20px;
+        margin-right: 40px;
+
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     
@@ -156,10 +167,14 @@ body{
         background-color: rgb(216, 98, 145); /* Fondo más oscuro en submenú */
         color: white; /* Texto blanco */
     }
-    
-    a {
-        text-decoration: none;
-        color: black;
-        font-style: black;;
-    
+    .imglogo {
+        width: 800px; /* Ocupa el ancho completo del contenedor padre */
+        max-width: 700px; /* Establece un tamaño máximo */
+        height: auto; /* Mantiene la proporción de la imagen */
+        margin-top: 20px; /* Espacio superior */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        display: block; /* Centra la imagen */
     }
+    

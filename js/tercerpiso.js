@@ -14,16 +14,16 @@ function toggleMenu(submenuId) {
 }
 //pasar del menu desplegablee a  los pisos
 function irAPlantaBaja() {
-    window.location.href = "plantabaja.html";
+    window.location.href = "PB.html";
 }
 function irAPrimeroPiso() {
-    window.location.href = "primerpiso.html";
+    window.location.href = "PRIMER.html";
 }
 
 function irASegundoPiso() {
-    window.location.href = "segundopiso.html";
+    window.location.href = "SEGUNDO.html";
 }
 
 function irATercerPiso() {
-    window.location.href = "tercerpiso.html";
+    window.location.href = "TERCER.html";
 }
