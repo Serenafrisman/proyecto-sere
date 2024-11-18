@@ -13,7 +13,7 @@ body {
     background-size: cover;            
     background-repeat: no-repeat;
     background-position: center;       
-    background-attachment: scroll;    
+    background-attachment: fixed;   
     display: flex;
     align-items: center;
     min-height: 100vh;
@@ -92,6 +92,7 @@ h1{
     border-color: black;
     height: 50px;
     width: auto;
+    font-family: "Julius Sans One", sans-serif;
 
 }
 .box3 {
@@ -127,7 +128,7 @@ h1{
     border-color: black;
     height: 30px;
     width: 250px;
-    
+    font-family: "Julius Sans One", sans-serif;
 
 }
 #password{
@@ -138,6 +139,8 @@ h1{
     width: 250px;
     display: flex;
     justify-content: center;
+    font-family: "Julius Sans One", sans-serif;
+    
 }
 #loginForm button {
     background-color:rgb(	255, 97, 154);
@@ -170,11 +173,4 @@ button:hover {
     outline: none;   
 }
 
-.box2 {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
-}
 
-.box2:hover {
-    transform: scale(1.15);
-}
