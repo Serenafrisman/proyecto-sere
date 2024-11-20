@@ -113,17 +113,18 @@ h1{
     transform: rotate(-18deg);
     padding: 40px;
     border-radius: 20px;
-   
- 
+    
 }
+
 #user{
     transform: rotate(-3deg);
-    margin-bottom: 15px;
-    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-top: 30px;
     border-color: black;
     height: 30px;
     width: 250px;
-    
+    font-family: "Julius Sans One", sans-serif;
+    transform: skew(-20deg);
 
 }
 #password{
@@ -134,15 +135,21 @@ h1{
     width: 250px;
     display: flex;
     justify-content: center;
+    font-family: "Julius Sans One", sans-serif;
 }
 #loginForm button {
     background-color:rgb(	255, 97, 154);
     border-radius: 20px;
     transform: rotate(-3deg);
-    height: 40px;
-    width: 100px;
+    height: 45px;
+    width: 150px;
     cursor: pointer;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+    cursor: pointer;
+    margin-left: 55px;
 }
 button:hover {
     background-color: #f80a81;}
