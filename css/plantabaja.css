@@ -38,6 +38,7 @@ body{
     p {
         height: auto;
         width: auto;
+        color: rgb(71, 69, 69);
     }
     
     .menu img {
