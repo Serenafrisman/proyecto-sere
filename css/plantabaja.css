@@ -35,11 +35,7 @@ body{
     
    
     
-    p {
-        height: auto;
-        width: auto;
-        color: rgb(71, 69, 69);
-    }
+    
     
     .menu img {
         margin-right: 100px;
@@ -87,7 +83,7 @@ body{
     }
     h3{
         font-size: 25px;
-        font-family: "Inknut Antiqua", serif;
+        
     }
     h4{
         font-size: 16px;
@@ -96,8 +92,8 @@ body{
     a {
         text-decoration: none;
         color: black;
-        font-style: black;;
-
+        font-style: black;
+        font-size: 25px;
     
     }
     .boxmenu ul {
