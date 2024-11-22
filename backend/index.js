@@ -12,5 +12,3 @@ onEvent("loginUser",(data)=>loginUser(data))
 
 
 startServer()
-console.log(registerUser({user:"1",password:""})
-)

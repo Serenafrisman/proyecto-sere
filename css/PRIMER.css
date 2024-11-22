@@ -47,6 +47,7 @@ body{
         justify-content: center;
         align-items: center;
         margin-top: 10px;
+        height: 100px;
     }
     
     .main-content h1 {
@@ -100,7 +101,7 @@ body{
         align-self: flex-end;
         margin-bottom: 70px;
         margin-right: 40px;
-
+        font-family: "Jaini Purva", sans-serif;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     

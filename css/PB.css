@@ -78,7 +78,7 @@ body{
         color: rgb(87, 85, 85);
     }
     #h3inicio{
-       font-size: 25px;
+    font-size: 25px;
     }
     h3{
         font-size: 25px;
@@ -93,12 +93,6 @@ body{
         font-style: black;;
 
     
-    }
-    .boxmenu ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        font-size: 25px;
     }
     .boxmenu ul {
         list-style: none;

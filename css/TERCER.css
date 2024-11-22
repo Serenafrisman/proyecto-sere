@@ -33,9 +33,19 @@ body{
         transform: scale(1.05);
     }
     
-    p {
-        height: auto;
-        width: auto;
+    p{
+        margin-top: 10px;
+        font-size:17px;
+        color: rgb(87, 85, 85);
+    }
+    #h3inicio{
+       font-size: 25px;
+    }
+    h3{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 16px;
     }
     
     .menu img {
@@ -101,7 +111,7 @@ body{
         align-self: flex-end;
         margin-bottom: 70px;
         margin-right: 40px;
-
+        font-family: "Jaini Purva", sans-serif;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
     
