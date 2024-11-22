@@ -5,7 +5,7 @@
     margin: 0;
 }
 body{
-    background-color: rgb(132, 195, 231);
+    background-color: rgb(151, 218, 255);
     
 }
 
@@ -33,12 +33,9 @@ body{
         transform: scale(1.05);
     }
     
-   
-    
     p {
         height: auto;
         width: auto;
-        color: rgb(71, 69, 69);
     }
     
     .menu img {
@@ -53,7 +50,7 @@ body{
     }
     
     .main-content h1 {
-        font-size: 8px;
+        font-size: 80px;
         font-family: "Inknut Antiqua", serif;
         margin-bottom: 95px;
         margin-right: 30px;
@@ -68,7 +65,7 @@ body{
     .jaini-purva-regular {
         font-family: "Jaini Purva", sans-serif;
         font-weight: 400;
-        font-size: 40px;
+        font-size: 100px;
         
     }
     .submenu1{
@@ -76,33 +73,18 @@ body{
         text-decoration:none;
     
     }
-    p{
-        margin-top: 10px;
-        font-size:17px;
-        color: rgb(87, 85, 85);
-    }
-    #h3inicio{
-       font-size: 25px;
-    }
-    h3{
-        font-size: 25px;
-    }
-    h4{
-        font-size: 16px;
-    }
+      
 
     a {
         text-decoration: none;
         color: black;
         font-style: black;;
-
     
     }
     .boxmenu ul {
         list-style: none;
         padding: 0;
         margin: 0;
-        font-size: 25px;
     }
     .boxmenu {
         background-color: rgb(207, 229, 235);
@@ -117,9 +99,9 @@ body{
         border: 5px solid rgb(0, 0, 0);
         align-self: flex-end;
         margin-bottom: 70px;
-        margin-right: 20px;
+        margin-right: 40px;
+
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-        font-family: "Jaini Purva", system-ui;
     }
     
     .boxmenu:hover {
@@ -184,5 +166,15 @@ body{
     .submenu li a:hover {
         background-color: rgb(216, 98, 145); /* Fondo más oscuro en submenú */
         color: white; /* Texto blanco */
+    }
+    .imglogo {
+        width: 800px; /* Ocupa el ancho completo del contenedor padre */
+        max-width: 700px; /* Establece un tamaño máximo */
+        height: auto; /* Mantiene la proporción de la imagen */
+        margin-top: 20px; /* Espacio superior */
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        display: block; /* Centra la imagen */
     }
     

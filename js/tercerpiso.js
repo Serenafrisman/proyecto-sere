@@ -1,35 +1,29 @@
 
 //como hacer kla funcion de pasar a una pagina 
-
-function irAInicio() {
-    window.location.href = "inicio.html"
+function irInicio() {
+    window.location.href = "inicio.html";
 }
-function irAInicio() {
-    window.location.href = "inicio.html"
+function irfavoritos() {
+    window.location.href = "favoritos.html";
 }
-function irAInicio() {
-    window.location.href = "inicio.html"
-}
-function irAInicio() {
-    window.location.href = "inicio.html"
-}
-
-
-
-document.getElementById("h3plantabaja").addEventListener("click", irAInicio)
-document.getElementById("h3primerpiso").addEventListener("click", irAInicio)
-document.getElementById("h3segundopiso").addEventListener("click", irAInicio)
-document.getElementById("h3tercerpiso").addEventListener("click", irAInicio)
 
 //como hacer menu desplegable
-window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName('dropdown-content');
-    for (var i = 0; i < dropdowns.length; i++) {
-    var openDropdown = dropdowns[i];
-    if (openDropdown.style.display === 'block') {
-    openDropdown.style.display = 'none';
-    }
-    }
-    }
-};
+function toggleMenu(submenuId) {
+    const submenu = document.getElementById(submenuId);
+    submenu.style.display = submenu.style.display === "block" ? "none" : "block";
+}
+//pasar del menu desplegablee a  los pisos
+function irAPlantaBaja() {
+    window.location.href = "PB.html";
+}
+function irAPrimeroPiso() {
+    window.location.href = "PRIMER.html";
+}
+
+function irASegundoPiso() {
+    window.location.href = "SEGUNDO.html";
+}
+
+function irATercerPiso() {
+    window.location.href = "TERCER.html";
+}

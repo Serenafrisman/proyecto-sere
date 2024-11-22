@@ -1,33 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
     padding: 0;
     margin: 0;
 }
-body{
-    background-color:rgb(44, 125, 179)
-    
+
+body {
+    background-color:rgb(57, 119, 198, 100)
 }
-.boxgrande{
+
+.boxgrande {
     display: flex;
-    justify-content: space-between; 
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente */
-    margin-top: 20px;        /* Ajusta el margen superior si lo necesitas */
-    width: 100%;             /* Asegúrate de que ocupe todo el ancho disponible */
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
     height: auto;
+}
+
+.btn {
+    text-decoration: none;
+    font-family: "Inknut Antiqua", serif;
+    background-color: rgb(216, 98, 145);
+    border-radius: 52px;
+    height: 60px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top:10px;
+    text-align: center;
+}
+.btn:hover {
+    transform: scale(1.05);
+}
+
+p {
+    height: auto;
+    width: auto;
+}
+
+.menu img {
+    margin-right: 100px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.main-content h1 {
+    font-size: 8px;
+    font-family: "Inknut Antiqua", serif;
+    margin-bottom: 95px;
+    margin-right: 30px;
+}
+
+.inknut-antiqua-light {
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.jaini-purva-regular {
+    font-family: "Jaini Purva", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: aliceblue;
+}
+ 
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: black;;
+
+}
+.boxmenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .boxmenu {
     background-color: rgb(207, 229, 235);
+    color: black;
     width: 300px;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly; 
-    align-items: center; 
-    border-radius: 47px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 60px;
     border: 5px solid rgb(0, 0, 0);
-    align-self: flex-end; 
+    align-self: flex-end;
+    margin-bottom: 70px;
+    margin-right: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boxmenu:hover {
+    transform: translateY(-5px); /* Elevar el menú ligeramente */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Agregar sombra suave */
 }
 
 .boxmenu h2 {
@@ -36,30 +110,55 @@ body{
     margin-bottom: 15px;
 }
 
-
-.menu img {
-    margin-right: 100px; /* Añade margen a la derecha de las imágenes dentro de la clase 'menu' */
-}
-.img{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
-
+.boxmenu ul li {
+    position: relative;
 }
 
-.main-content h1{
-    font-size: 20px;
-    font-family: "Jaini Purva", sans-serif !important;
-    margin-bottom: 95px;
-    margin-right: 30PX;
+.boxmenu li a {
+    display: block;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+.boxmenu li a:hover {
+    background-color: rgb(216, 98, 145); /* Fondo más oscuro */
+    color: white; /* Texto blanco */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra en el enlace */
+    transform: scale(1.05); /* Ligeramente más grande */
+}
 
+.boxmenu ul li:hover .submenu {
+    display: block;
+    max-height: 200px; /* Altura animada */
+    transition: max-height 0.3s ease-in-out;
+}
 
-.jaini-purva-regular {
-    font-family: "Jaini Purva", sans-serif;
-    font-weight: 400px;
-    font-size: 100px;
+.submenu {
+    display: none; /* Oculto por defecto */
+    position: relative; /* Dentro de .boxmenu */
+    background-color: rgb(207, 229, 235);
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 100%; /* Asegura que el submenú ocupe todo el ancho de la caja */
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.submenu li a {
+    color: black;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.submenu li a:hover {
+    background-color: rgb(216, 98, 145); /* Fondo más oscuro en submenú */
+    color: white; /* Texto blanco */
 }

@@ -4,26 +4,45 @@
     <meta charset="UTF-8">
     <title>BuscandORT</title>
     <link rel="stylesheet" href="css/tercerpiso.css">
+    <link rel="icon" href="./img/LOGO BUSCANDORT.png" type=icon>
+    <link rel="icon" href="images/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="icon" href="images/favicon-32x32.png" sizes="32x32" type="image/png">
 </head>
 <body>
     <div class="boxgrande"> 
         <div class="menu+h1">
-        <h1 class="jaini-purva-regular">TERCER</h1>
-        <h1 class="jaini-purva-regular">PISO</h1>
+        <h1 class="jaini-purva-regular">El aula “” esta en el Tercer Piso</h1>
+        <h1 class="jaini-purva-regular"></h1>
+
+        <button class="btn" onclick="irAPantalla2()"><h3>Agregar Favoritos</h3></button>
+
         <div class="boxmenu">
         <ul>       
             <p>_______________________________</p>
             <h3 id="h3inicio"><img src="img/captura.casa.png" alt="Inicio Icono">Inicio</h3></li>
             <p>_______________________________</p>
-            <h3><img src="img/misfavoritos.PNG" alt="Favoritos Icono">Mis Favoritos</h3></li>
+
+            <h3>
+                <a href="favoritos.html">
+                    <img src="img/misfavoritos.PNG" alt="Favoritos Icono"> Mis Favoritos
+                </a>
+            </h3>
+
             <p>_______________________________</p>
             <h3><img src="img/recientes.png" alt="Recientes Icono">Recientes</h3></li>
             <p>_______________________________</p>
-            <h3><img src="img/pisos.png" alt="Pisos Icono">Pisos</h3></li>
+            <h3><img src="img/pisos.png" alt="Pisos Icono"><a href="#" onclick="toggleMenu('submenu1')">Pisos</a></h3>
+            <li class="submenu" id="submenu1">
+                <a href="#" onclick="irAPlantaBaja()">PB</a>
+                <a href="#" onclick="irAPrimeroPiso()">1er Piso</a>
+                <a href="#" onclick="irASegundoPiso()">2do Piso</a>
+                <a href="#" onclick="irATercerPiso()">3er Piso</a> </li>
             <p>_______________________________</p>
             </ul>
         </div>
     </div>
-    <img src="img/tercerpiso.png" alt="Descripción de la imagen">
+    <img src="img/Tercerpisoo.jpg" alt="Descripción de la imagen">
     <script src="js/tercerpiso.js"></script>
 </body>
+
+

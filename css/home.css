@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,12 +10,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    font-family: "Inknut Antiqua", serif;
   }
 
   .boxtexto{
     height:200px;
-    width:auto;
-    align-items: flex-start;
+    width:2000px;
+
     line-height: 0px;
     }
     
@@ -34,7 +37,7 @@
   
   .flex-container {
   
-    height: 100px;
+    height: 200px;
     width: 1000px;
     padding: 0;
     margin: 0;
@@ -44,9 +47,10 @@
     display:flex ;
   flex-direction:column;
   flex-wrap: nowrap;
-  justify-content: end;
-    align-items: end;
+  justify-content:center;
+    align-items: center;
     justify-content: end;
+    font-family: "Inknut Antiqua", serif;
 
   }
   .btn:hover {
@@ -56,24 +60,29 @@
     transform: scale(1.05);
   }
   .btn{
+    border-width: 5px;
+    border-bottom-color: aliceblue;
     border-color: rgb(237, 239, 241);
+    color: aliceblue;
     text-decoration-color:blue;
-    background-color: rgb(216, 98, 145);
+    background-color: rgb(230, 28, 109);
     border-radius: 52px 52px 52px 52px;
-    height: 40px;
-    width: 120px;
-    margin-bottom: 20px;
+    height: 60px;
+    width: 200px;
+    margin-bottom: 80px;
+    font-family: "Inknut Antiqua", serif;
   }
 .btn1{
+      border-width: 5px;
       border-color: rgb(237, 239, 241);
+      color: aliceblue;
       text-decoration-color:blue;
-      background-color: rgb(216, 98, 145);
+      background-color: rgb(235, 96, 151);
       border-radius: 52px 52px 52px 52px;
-      height: 40px;
-      width: 120px;
+      height: 60px;
+    width: 200px;
+    font-family: "Inknut Antiqua", serif;
       
-      
-
   }
   
   .h1{
@@ -111,6 +120,15 @@
   justify-content: center;
 }
 
+  .h1 {
+    margin: 15px 0; /* Ajusta el margen superior e inferior como desees */
+    color: rgb(34, 10, 248);
+    padding: 10px; /* Mantén el padding si es necesario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .boxtexto p {
     margin: 0;             
     padding: 0;              
@@ -125,27 +143,18 @@
     justify-content: end;
   
   }
-  
-  .flex-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    border: 1px solisilver;
-    -ms-box-orient: horizontal;
-    display: flex;
-    border-radius: 10px;
-  }
-  
-  .box2{
+
+
+.box2 {
+      text-align: center;
+      padding: 20px;
+      height: 600px;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  /* Centra verticalmente */
+      align-items: center;      /* Centra horizontalmente */
+      margin-bottom: 10px;
+    }
     
-    text-align:center;
-    padding:20px;
-    height: 600px;
-    width: 400px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 10px;
-    
-  }
+  
