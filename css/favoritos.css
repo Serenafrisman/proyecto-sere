@@ -37,18 +37,29 @@ body{
     margin-bottom: 300px;
     align-content: flex-start;
 }
+.p{
+    margin-top: 10px;
+    font-size:17px;
+    color: rgb(87, 85, 85);
+}
 h1{
-    gap: 10px;
-    margin-right: 15px;
+    font-size: 60px
 }
-h2{
+h2 {
     font-size: 60px;
+    margin-left:30px;
 }
-#h3{
-    display: flex;
-justify-content: center;
+#h3inicio{
+font-size: 25px;
+}
+h3{
+    font-size: 25px;
+}
+h4{
+    font-size: 16px;
+}
 
-}
+
 .boxmenu {
     background-color: rgb(207, 229, 235);
     color: black;
@@ -71,9 +82,10 @@ justify-content: center;
     margin-bottom: 15px;
 }
 
-p {
-    height: auto;
-    width: auto;
+a {
+    text-decoration: none;
+    color: black;
+    font-style: black;;
 }
 
 .menu img {
@@ -110,43 +122,80 @@ p {
 .submenu1{
     color: black;
     text-decoration:none;
-
 }
-  
 .boxmenu ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 25px;
+}
+.boxmenu {
+    background-color: rgb(207, 229, 235);
+    color: black;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 60px;
+    border: 5px solid rgb(0, 0, 0);
+    align-self: flex-end;
+    margin-bottom: 70px;
+    margin-right: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: "Jaini Purva", system-ui;
 }
 
+.boxmenu:hover {
+    transform: translateY(-5px); /* Elevar el menú ligeramente */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Agregar sombra suave */
+}
+
+.boxmenu h2 {
+    border-bottom: 4px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
 
 .boxmenu ul li {
     position: relative;
 }
 
-  
-  .boxmenu li a {
+.boxmenu li a {
     display: block;
     padding: 10px;
-    
+    background-color: transparent;
+    border-radius: 5px;
     text-decoration: none;
-  }
-  .boxmenu ul li:hover .submenu {
-    display: block;
-    max-height: 200px; /* Ajusta esta altura según el número de elementos */
-    transition: max-height 0.3s ease-in-out; /* Añade transición suave */
-
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-  
+.boxmenu li a:hover {
+    background-color: rgb(216, 98, 145); /* Fondo más oscuro */
+    color: white; /* Texto blanco */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Sombra en el enlace */
+    transform: scale(1.05); /* Ligeramente más grande */
+}
+
+.boxmenu ul li:hover .submenu {
+    display: block;
+    max-height: 200px; /* Altura animada */
+    transition: max-height 0.3s ease-in-out;
+}
+
 .submenu {
     display: none; /* Oculto por defecto */
-    position: relative; /* Cambiamos a 'relative' para que quede dentro de .boxmenu */
+    position: relative; /* Dentro de .boxmenu */
     background-color: rgb(207, 229, 235);
     border-radius: 10px;
     padding: 10px 0;
     width: 100%; /* Asegura que el submenú ocupe todo el ancho de la caja */
-    color:black;
+    color: black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
 
 .submenu li a {
@@ -154,12 +203,14 @@ p {
     padding: 10px 20px;
     display: block;
     text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .submenu li a:hover {
-    background-color: rgb(216, 98, 145);
-    color: rgb(0, 0, 0);
+    background-color: rgb(216, 98, 145); /* Fondo más oscuro en submenú */
+    color: white; /* Texto blanco */
 }
+
 a {
     text-decoration: none;
     color: black;

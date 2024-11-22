@@ -31,11 +31,22 @@ body{
     }
    
     
-    p {
-        height: auto;
-        width: auto;
+    p{
+        margin-top: 10px;
+        font-size:17px;
+        color: rgb(87, 85, 85);
     }
+    #h3inicio{
+    font-size: 25px;
     
+    }
+    h3{
+        font-size: 25px;
+
+    }
+    h4{
+        font-size: 16px;
+    }
     .menu img {
         margin-right: 100px;
     }

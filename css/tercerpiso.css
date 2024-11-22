@@ -40,14 +40,17 @@ p{
     color: rgb(87, 85, 85);
 }
 #h3inicio{
-   font-size: 25px;
+font-size: 25px;
+
 }
 h3{
     font-size: 25px;
+    
 }
 h4{
     font-size: 16px;
 }
+
 
 .menu img {
     margin-right: 100px;
@@ -79,7 +82,7 @@ h4{
     font-size: 40px;
     color: aliceblue;
 }
- 
+
 
 a {
     text-decoration: none;
