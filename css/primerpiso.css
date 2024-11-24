@@ -18,7 +18,7 @@ body{
     
     .btn {
         text-decoration: none;
-       
+        font-family: "Inknut Antiqua", serif;
         background-color: rgb(216, 98, 145);
         border-radius: 52px;
         height: 60px;
@@ -72,7 +72,7 @@ body{
     }
     
     .jaini-purva-regular {
-        font-family: "Jaini Purva", sans-serif;
+        font-family: "Inknut Antiqua", serif;
         font-weight: 400;
         font-size: 40px;
         

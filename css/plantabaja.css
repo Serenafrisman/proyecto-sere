@@ -6,7 +6,7 @@
 }
 body{
     background-color: rgb(132, 195, 231);
-    
+
 }
 
 .boxgrande {
@@ -28,6 +28,7 @@ body{
         margin-bottom: 20px;
         margin-top:10px;
         text-align: center;
+        font-size: 40px;
     }
     .btn:hover {
         transform: scale(1.05);
@@ -62,9 +63,9 @@ body{
     }
     
     .jaini-purva-regular {
-        font-family: "Jaini Purva", sans-serif;
+        font-family: "Inknut Antiqua", serif;
         font-weight: 400;
-        font-size: 40px;
+        font-size: 35px;
         
     }
     .submenu1{
