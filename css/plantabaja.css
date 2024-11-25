@@ -34,10 +34,6 @@ body{
         transform: scale(1.05);
     }
     
-   
-    
-    
-    
     .menu img {
         margin-right: 100px;
     }
@@ -47,6 +43,9 @@ body{
         justify-content: center;
         align-items: center;
         margin-top: 10px;
+        width: 150%; /* Aumenta el tamaño en proporción */
+        max-width: 800px;
+        height: auto;
     }
     
     .main-content h1 {

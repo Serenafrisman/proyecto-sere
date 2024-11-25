@@ -52,11 +52,11 @@ body{
     }
     
     .img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
+        display: block; /* Evita problemas con márgenes o espacios extra */
+        width: 800px; /* Define el ancho deseado */
+        height: auto; 
     }
+    
     
     .main-content h1 {
         font-size: 8px;
