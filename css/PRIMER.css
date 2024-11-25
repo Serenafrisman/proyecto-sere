@@ -32,7 +32,6 @@ body{
     .btn:hover {
         transform: scale(1.05);
     }
-    
     p{
         margin-top: 10px;
         font-size:17px;
@@ -40,14 +39,28 @@ body{
     }
     #h3inicio{
     font-size: 25px;
+    
     }
     h3{
         font-size: 25px;
+        
     }
     h4{
         font-size: 16px;
     }
-    
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-style: black;
+        font-size: 25px;
+    }
+    p{
+        margin-top: 10px;
+        font-size:17px;
+        color: rgb(87, 85, 85);
+    }
+
     .menu img {
         margin-right: 100px;
     }

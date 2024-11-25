@@ -11,7 +11,7 @@
 <body>
     <div class="boxgrande"> 
         <div class="menu+h1">
-        <h1 class="jaini-purva-regular">El aula “” esta en el</h1>
+        <h1 class="jaini-purva-regular" id="plantaBajaAula">El aula “” esta en el</h1>
         <h1 class="jaini-purva-regular">Tercer piso</h1>
         <h1 class="jaini-purva-regular"></h1>
 
@@ -41,9 +41,26 @@
             <p>____________________________________________________</p>
             </ul>
         </div>
+
+        <script>
+            // Recupera el valor almacenado en sessionStorage
+            var aulaBuscada = sessionStorage.getItem("autosave");
+    
+            // Muestra el resultado en la página
+            if (aulaBuscada) {
+                document.getElementById("resultado").textContent = "Información del aula: " + aulaBuscada;
+                // Aquí puedes agregar lógica para buscar más detalles sobre el aula, si fuera necesario.
+            } else {
+                document.getElementById("resultado").textContent = "No se encontró información del aula.";
+            }
+        </script>
     </div>
     <img src="img/Tercerpisoo.jpg" alt="Descripción de la imagen">
     <script src="js/tercerpiso.js"></script>
+    <script src="js/aula.js"></script>
+    <script src="recientes.js"></script>
+    <sript src="gfavoritos"></sript>
+
 </body>
 
 

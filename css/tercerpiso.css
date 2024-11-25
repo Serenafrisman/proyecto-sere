@@ -7,7 +7,8 @@
 }
 
 body {
-    background-color:rgb(57, 119, 198, 100)
+    background-color:rgb(57, 119, 198, 100);
+    background-position:bottom;
 }
 
 .boxgrande {
@@ -17,6 +18,7 @@ body {
     margin-top: 20px;
     width: 100%;
     height: auto;
+    
 }
 
 .btn {
@@ -63,6 +65,7 @@ h4{
     margin-top: 10px;
     width: 150%; /* Aumenta el ancho al 150% del tamaño original */
     height: 300px;
+    transform: scale(3.5deg); 
 }
 
 .main-content h1 {
