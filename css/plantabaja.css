@@ -43,9 +43,8 @@ body{
         justify-content: center;
         align-items: center;
         margin-top: 10px;
-        width: 150%; /* Aumenta el tamaño en proporción */
-        max-width: 800px;
-        height: auto;
+        width: 1200px;
+        height: 50%;
         margin-right: 200px;
     }
     

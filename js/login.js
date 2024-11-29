@@ -1,10 +1,15 @@
 connect2Server()
 
-document.getElementById("ingresar").addEventListener("click",()=>{
-    postData("loginUser",({user:document.getElementById("user").value,password:document.getElementById("password").value}),(data)=>{
-        localStorage.setItem("recientes", data.data.recientes)
-        localStorage.setItem("recientes", data.data.favoritos)
-        location.href = "../inicio.html"
-    })
-})
+function login() {
+    const user = document.getElementById("user").value
+    const  password = document.getElementById("password").value
+
+    
+    let data= {
+        usuario: user,
+        contra:password,
+    }
+    
+    postData("loginuser",data,callbackuser)
+}
 

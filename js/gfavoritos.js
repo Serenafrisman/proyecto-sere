@@ -23,7 +23,7 @@ export const getFavoritos = (data)=>{
     let informacion = JSON.parse(fs.readFileSync("./data.json"))
     for (let index = 0; index < informacion.length; index++) {
         if (informacion[index].username === user) {
-           return {valid:true, data: informacion[index].favoritos}
+            return {valid:true, data: informacion[index].favoritos}
         }
     }
     return {valid:false,msg:"No se encontro el usuario"}        

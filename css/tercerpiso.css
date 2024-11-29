@@ -53,7 +53,9 @@ h3{
 h4{
     font-size: 16px;
 }
-
+h1{
+    font-size: 120px;
+}
 
 .menu img {
     margin-right: 100px;
@@ -64,9 +66,10 @@ h4{
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    width: 150%; /* Aumenta el ancho al 150% del tamaño original */
     height: 300px;
-    transform: scale(3.5deg); 
+    transform-origin: center; 
+    max-height: 400px;
+    max-width: 1000px;
 }
 
 .main-content h1 {

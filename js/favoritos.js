@@ -41,6 +41,7 @@ function mostrarPiso() {
         case 'L001':
         case 'L002':
         case 'Ofc. asistentes':
+
         case 'Admisión':
         case 'L004':
         case 'L006':
@@ -157,7 +158,7 @@ function mostrarPiso() {
         imagen = 'images/plano_piso3.jpg';
         break;
         default:
-        piso = null;
+        piso = "este piso no existe";
         imagen = null;
         break;
         }        
