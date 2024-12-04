@@ -37,14 +37,19 @@ body{
     .menu img {
         margin-right: 100px;
     }
-    
-    .imgg {
+    #contimg{
+        display: flex; /* Hace que el contenedor use Flexbox */
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        height: 100vh; /* Hace que el contenedor use toda la altura de la ventana */
+    }
+    #imgg {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 10px;
         width: 1200px;
-        height: 50%;
+        height: 100%;
         margin-right: 200px;
     }
     
