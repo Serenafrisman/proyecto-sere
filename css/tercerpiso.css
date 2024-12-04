@@ -187,3 +187,11 @@ a {
     background-color: rgb(216, 98, 145); /* Fondo más oscuro en submenú */
     color: white; /* Texto blanco */
 }
+#imgg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 100%;
+    
+}
