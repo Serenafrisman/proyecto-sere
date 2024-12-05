@@ -9,7 +9,14 @@ function login() {
         usuario: user,
         contra:password,
     }
-    
-    postData("loginuser",data,callbackuser)
-}
 
+    function callbacklogin(res) {
+        if (res.valid === true) {
+            alert("iniciaste sesion")
+        } else {
+            alert("intenta de nuevo")
+        }
+    }
+
+    postData("loginuser",data,callbacklogin)
+}

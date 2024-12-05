@@ -177,3 +177,10 @@ a {
     background-color: rgb(216, 98, 145); 
     color: white; 
 }
+#imgg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 100%;
+}

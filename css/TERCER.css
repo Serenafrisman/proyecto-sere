@@ -205,4 +205,10 @@ body{
         display: block; /* Centra la imagen */
         margin-bottom: 40px;
     }
-    
+    #imgg {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 700px;
+        height: 100%;
+    }

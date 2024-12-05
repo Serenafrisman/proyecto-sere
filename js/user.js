@@ -22,7 +22,11 @@ export const loginUser = (data)=>{
     let informacion = JSON.parse(fs.readFileSync("./data.json"))
     for (let index = 0; index < informacion.length; index++) {
         if (informacion[index].username === user && informacion[index].password === password) {
-            return {valid:true, data:{recientes:informacion[index].recientes, favoritos:informacion[index].favoritos}}
+            return {
+                valid:true, 
+                data:{recientes:informacion[index].recientes, 
+                favoritos:informacion[index].favoritos
+            }}
         }}
     return {valid:false,msg:"No se encontro el usuario"}        
 
