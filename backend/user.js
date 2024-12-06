@@ -18,10 +18,10 @@ export const registerUser = (data)=>{
 
 
 export const loginUser = (data)=>{
-    const {user, password} = data
+    const {usuario, contra} = data
     let informacion = JSON.parse(fs.readFileSync("./data.json"))
     for (let index = 0; index < informacion.length; index++) {
-        if (informacion[index].username === user && informacion[index].password === password) {
+        if (informacion[index].username === usuario && informacion[index].password === contra) {
             return {
                 valid:true, 
                 data:{recientes:informacion[index].recientes, 

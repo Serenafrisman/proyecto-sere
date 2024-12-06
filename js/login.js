@@ -13,10 +13,12 @@ function login() {
     function callbacklogin(res) {
         if (res.valid === true) {
             alert("iniciaste sesion")
+            window.location.href = "inicio.html";
         } else {
             alert("intenta de nuevo")
         }
     }
 
-    postData("loginuser",data,callbacklogin)
+    postData("loginUser",data,callbacklogin)
 }
+    

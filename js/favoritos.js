@@ -117,6 +117,7 @@ function mostrarPiso() {
         case 'L2':
         case 'L3':
         case 'L4':
+        case 'L5':
         case 'Pañol TIC':
         case 'L213':
         case 'Ofc.':
