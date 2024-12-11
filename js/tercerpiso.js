@@ -64,7 +64,26 @@ function irATercerPiso() {
         }
           sessionStorage.setItem("autosave", aula); // Guarda el aula en sessionStorage
            // Redirige a la página de resultado
-      } else {
+    } else {
           alert("Por favor, ingresa un número de aula."); // Valida que el campo no esté vacío
-      }
-  });
+    }
+});
+ // al hacer clic en el botón, se guarde el título de la página actual y su URL en localStorage
+document.addEventListener('DOMContentLoaded', function() {
+    // Selecciona el botón por su ID
+    alert('DOM loaded');
+});
+
+const addToFavoritesButton = document.getElementById('addToFavorites');
+
+// Añade un evento de clic al botón
+addToFavoritesButton.addEventListener('click', function() {
+    var url = document.URL; // Obtiene la URL actual
+    var title = document.title; // Obtiene el título de la página actual
+
+    // Almacena el título y la URL en localStorage
+    localStorage.setItem('favoritePageTitle', title);
+    localStorage.setItem('favoritePageUrl', url);
+
+    alert('Página agregada a favoritos: ' + title);
+});
