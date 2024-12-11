@@ -42,23 +42,29 @@
 <div class="titulo">
     <h1>M I S </h1><h2>F A V O R I T O S :</h2>
 </div>
-<h3></h3>
+<div id="favoritosList"></div>
+<div id="favoritosList"></div>
 
 <script>
-     // Recupera los datos del localStorage
-    const favoriteTitle = localStorage.getItem('favoritePageTitle');
-    const favoriteUrl = localStorage.getItem('favoritePageUrl');
+    document.addEventListener('DOMContentLoaded', function() {
+        // Obtiene el título y la URL del localStorage
+        const title = localStorage.getItem('favoritePageTitle');
+        const url = localStorage.getItem('favoritePageUrl');
 
-        // Muestra el título y enlace de la página favorita
-        if (favoriteTitle && favoriteUrl) {
-            document.getElementById('favoriteInfo').innerHTML = 
-                '<p>Título: <strong>' + favoriteTitle + '</strong></p>' +
-                '<p>URL: <a href="' + favoriteUrl + '">' + favoriteUrl + '</a></p>';
+        // Verifica si hay datos guardados
+        if (title && url) {
+            // Crea un elemento para mostrar el favorito
+            const favoritosList = document.getElementById('favoritosList');
+            const favoritoItem = document.createElement('div');
+            favoritoItem.innerHTML = `<a href="${url}" target="_blank">${title}</a>`;
+            favoritosList.appendChild(favoritoItem);
         } else {
-            document.getElementById('favoriteInfo').innerHTML = 
-                '<p>No hay páginas favoritas guardadas.</p>';
+            document.getElementById('favoritosList').innerText = 'No hay favoritos guardados.';
         }
+    });
 </script>
+
+
 
 <div class="boxgrande">
     <script src="js/tercerpiso.js"></script>
