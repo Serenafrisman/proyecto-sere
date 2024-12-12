@@ -30,6 +30,10 @@ function irATercerPiso() {
 }
 
 
+localStorage.setItem('favoritos', "[]");
+
+
+
  // al hacer clic en el botón, se guarde el título de la página actual y su URL en localStorage
 document.addEventListener('DOMContentLoaded', function() {
     // Selecciona el botón por su ID
@@ -39,18 +43,34 @@ document.addEventListener('DOMContentLoaded', function() {
 
 const agregarFavoritos = document.getElementById('agregarFavoritos');
 
+
 // Añade un evento de clic al botón
 agregarFavoritos.addEventListener('click', function() {
     alert("hey")
+    
     var url = document.URL; // Obtiene la URL actual
     var title = document.title; // Obtiene el título de la página actual
     var customName = ""; // Nombre personalizado para la página
 
 
-    // Almacena el título y la URL en localStorage
-
     localStorage.setItem('favoritePageTitle', title);
-    localStorage.setItem('favoritePageUrl', url);
+    
+    let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
 
+    favoritos.push({ name: customName, title: title, url: url });
+
+    localStorage.setItem('favoritos', JSON.stringify(favoritos));
     alert('Página agregada a favoritos: ' + customName);
+    mostrarFavoritos(); 
 });
+
+// Mostrar los favoritos al cargar la página
+mostrarFavoritos();
+
+
+
+    
+    alert('Página agregada a favoritos: ' + title);
+
+
+let informacion = JSON.parse(fs.readFileSync("/favoritos.json"))
