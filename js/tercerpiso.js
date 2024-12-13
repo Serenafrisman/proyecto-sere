@@ -53,6 +53,7 @@ agregarFavoritos.addEventListener('click', function() {
     var customName = ""; // Nombre personalizado para la página
 
 
+
     localStorage.setItem('favoritePageTitle', title);
     
     let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
@@ -68,9 +69,6 @@ agregarFavoritos.addEventListener('click', function() {
 mostrarFavoritos();
 
 
-
-    
     alert('Página agregada a favoritos: ' + title);
 
 
-let informacion = JSON.parse(fs.readFileSync("/favoritos.json"))

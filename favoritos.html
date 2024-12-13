@@ -18,13 +18,11 @@
             <a href="#" onclick="irInicio()"><h3 id="h3inicio"><img src="img/captura.casa.png" alt="Inicio Icono">Inicio</h3></li></a>
             
             <p>___________________________________</p>
-
             <h3>
                 <a href="favoritos.html">
                     <img src="img/misfavoritos.PNG" alt="Favoritos Icono"> Mis Favoritos
                 </a>
             </h3>
-
             <p>___________________________________</p>
             <h3><img src="img/recientes.png" alt="Recientes Icono">Recientes</h3></li>
             <p>___________________________________</p>
@@ -56,12 +54,12 @@
             // Crea un elemento para mostrar el favorito
             const favoritosList = document.getElementById('favoritosList');
             const favoritoItem = document.createElement('div');
+
             favoritoItem.innerHTML = `<a href="${url}" target="_blank">${title}</a>`;
             favoritosList.appendChild(favoritoItem);
-        } else {
-            document.getElementById('favoritosList').innerText = 'No hay favoritos guardados.';
-        }
+        } 
     });
+    mostrarFavoritos();
 </script>
 
 
