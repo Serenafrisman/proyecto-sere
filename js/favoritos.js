@@ -175,3 +175,82 @@ function mostrarPiso() {
         planoImg.style.display = 'none';
     }
 }
+//____________________________________________________________________
+
+
+
+localStorage.setItem('favoritos', "[]");
+
+
+
+ // al hacer clic en el botón, se guarde el título de la página actual y su URL en localStorage
+document.addEventListener('DOMContentLoaded', function() {
+    // Selecciona el botón por su ID
+    alert('DOM loaded');
+});
+
+
+const agregarFavoritos = document.getElementById('agregarFavoritos');
+
+
+// Añade un evento de clic al botón
+agregarFavoritos.addEventListener('click', function() {
+    alert("hey")
+    
+    var url = document.URL; // Obtiene la URL actual
+    var title = document.title; // Obtiene el título de la página actual
+    var customName = ""; // Nombre personalizado para la página
+
+
+
+    localStorage.setItem('favoritePageTitle', title);
+    
+    let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
+
+    favoritos.push({ name: customName, title: title, url: url });
+
+    localStorage.setItem('favoritos', JSON.stringify(favoritos));
+    alert('Página agregada a favoritos: ' + customName);
+    mostrarFavoritos(); 
+});
+
+// Mostrar los favoritos al cargar la página
+mostrarFavoritos();
+
+
+    alert('Página agregada a favoritos: ' + title);
+
+//__________________________________________________________________________
+// Selecciona el elemento <select>
+const contenedor = document.querySelector(".container");
+
+  let favoritos = [
+    { "favorito": "L300", "piso": "Tercero" },
+    { "favorito": "L200", "piso": "Segundo" },
+    { "favorito": "L100", "piso": "Primero" },
+    { "favorito": "L000", "piso": "PB" },
+  ];
+
+  function mostrarFavoritos() {
+    console.log("Mostrando favoritos..."); // Verifica si la función se ejecuta
+    contenedor.innerHTML = ''; // Limpiar el contenedor antes de mostrar los favoritos
+
+    favoritos.forEach(item => {
+      // Crear un div para cada favorito
+      const favoritodiv = document.createElement("div");
+      favoritodiv.classList.add('favorito');
+
+      // Agregar información del favorito
+      favoritodiv.innerHTML = `
+        <h2>${item.favorito}</h2>
+        <p>Piso: ${item.piso}</p>
+      `;
+
+      // Añadir el div al contenedor
+      contenedor.appendChild(favoritodiv);
+    });
+  }
+
+  // Llama a la función para mostrar los favoritos
+  mostrarFavoritos();
+
